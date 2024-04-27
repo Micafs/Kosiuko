@@ -9,7 +9,6 @@ header{
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 0;
     width: 100%;
 }
 
@@ -25,15 +24,24 @@ header{
     width: 100%;
 }
 
-header h1 {
+.kosiuko-logo{
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
-    font-size:90px;
+    font-size:30px;
     letter-spacing: .3cm;
     text-align: center;
     width: 100%;
+    height: 200px;
     position: absolute;
-    top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kosiuko-logo:hover{
+    color: white;
+    -webkit-text-stroke: black 1px;
+
 }
 
 .icons{
@@ -54,10 +62,28 @@ header h1 {
    position: relative;
 }
 
-#top-image{
+.top-image{
     margin-top: 121px;
     box-sizing: content-box;
 }
+
+.top-image p{
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #A6ACAF;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size:50px;
+    letter-spacing: 50px;
+    text-align: center;
+    margin-block: 5px;
+    -webkit-text-stroke: #979A9A 1px;
+    border-block:#979A9A 2px solid;
+}
+
+.top-image p:hover{
+    color: black;
+}
+
 
 .imgContent{
     height: 80%;
@@ -76,11 +102,16 @@ header h1 {
     justify-content: space-around;
     align-items: flex-start;
     flex-direction: row;
+    flex-wrap: wrap;
     max-width: 100%;
     padding-inline: 15px;
+    margin-top: 15px;
+
 }
 .first-row-items article img{
-    width: 500px;
+    width: 100%;
+    max-width: 450px;
+    object-fit: cover;
 }
 
 .second-row-items{
@@ -88,10 +119,15 @@ header h1 {
     justify-content: space-around;
     align-items: flex-start;
     flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding-inline: 15px;
 }
 
 .second-row-items article img{
-    width: 500px;
+    width: 100%;
+    max-width: 450px;
+    object-fit: cover;
 }
 
 .second-row-items article{
