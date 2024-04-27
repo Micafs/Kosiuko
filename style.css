@@ -97,3 +97,76 @@ header h1 {
 .second-row-items article{
     margin-top: 30px;
 }
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding-block: 80px;
+    margin-top: 50px;
+}
+
+.footer-nav{
+    display: flex;
+    font-size:15px;
+    justify-content: space-evenly;
+}
+
+.footer-ppal{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 18%;
+
+}
+
+.footer-ppal p{
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight:600;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.footer-item{
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    list-style: none;
+    padding: 0;
+}
+
+.second-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.second-footerNav{
+    width: 18%;
+}
+
+.fontTitle{
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight:400;
+    font-size: 20px;
+}
+
+.second-footer-item{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.fontNewsteller{
+    border: none;
+    font-size: 45px;
+    padding: 0;
+    font-weight: 600;
+    line-height: 1.1;
+}
