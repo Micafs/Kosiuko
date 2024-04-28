@@ -74,11 +74,10 @@ header{
 }
 
 #first-element{
-    top: 121px;
+    height: 121px;
 }
 
 .top-image{
-    margin-top: 121px;
     box-sizing: content-box;
 }
 
