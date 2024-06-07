@@ -26,10 +26,10 @@ header{
     width: 100%;
 }
 
-.kosiuko-logo{
+h1{
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
-    font-size:30px;
+    font-size:50px;
     letter-spacing: .3cm;
     text-align: center;
     width: 100%;
@@ -39,17 +39,7 @@ header{
     justify-content: center;
     align-items: center;
     transition: .2s ease;
-}
-
-.kosiuko-logo h1{
     margin: 0;
-}
-
-.kosiuko-logo:hover{
-    color: white;
-    -webkit-text-stroke: black 1px;
-    cursor: pointer;
-    transition: .2s ease;
 
 }
 
@@ -77,11 +67,11 @@ header{
     height: 121px;
 }
 
-.top-image{
+main{
     box-sizing: content-box;
 }
 
-.top-image p{
+main p{
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #A6ACAF;
     color: whitesmoke;
@@ -95,11 +85,11 @@ header{
     transition: .2s ease;
 }
 
-.top-image p:hover{
+/* main p:hover{
     color: black;
     cursor: pointer;
-    transition: .2s ease;
-}
+    transition: .2s ease; 
+}*/
 
 
 .imgContent{
