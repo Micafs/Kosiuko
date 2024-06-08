@@ -53,3 +53,11 @@ if (promo > 3){
 }
 }
 setInterval(funcion,2000)
+
+document.getElementById('menuButton').addEventListener('click', function() {
+    document.getElementById('sideMenu').style.transform = 'translateX(0)';
+});
+
+document.getElementById('closeBtn').addEventListener('click', function() {
+    document.getElementById('sideMenu').style.transform = 'translateX(-100%)';
+});
