@@ -14,7 +14,7 @@ header{
     top: 0;
 }
 
-.discountTop{
+#discountTop{
     height: 30px;
     background-color: black;
     color: white;

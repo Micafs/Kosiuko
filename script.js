@@ -40,3 +40,16 @@ newA.addEventListener('mouseover', (e) => {
     newA.style["-webkit-text-stroke"] = 'black 1px';
 
 });
+
+const lista = ['NO EXITEN CÓDIGOS A LA HORA DE VESTIRSE. BE YOUR OWN PIECE OF STREET ART.','3 Y 6 CUOTAS SIN INTERÉS','ENVÍOS GRATIS EN COMPRAS SUPERIORES A $250.000','ENVÍO EN EL DÍA COMPRANDO ANTES DE LAS 12HS - DÍAS HÁBILES']
+let promo = 1
+
+
+function funcion (){
+document.getElementById('discountTop').innerHTML = `${lista[promo]}`;
+promo+=1;
+if (promo > 3){
+    promo = 0
+}
+}
+setInterval(funcion,2000)
