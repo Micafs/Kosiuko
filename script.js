@@ -61,3 +61,9 @@ document.getElementById('menuButton').addEventListener('click', function() {
 document.getElementById('closeBtn').addEventListener('click', function() {
     document.getElementById('sideMenu').style.transform = 'translateX(-100%)';
 });
+
+document.getElementById('closeBtn').addEventListener('click', function() {
+    document.getElementById('sideMenu').style.transform = 'translateX(-100%)';
+});
+
+const close1 = () =>{document.getElementById('sideMenu').style.transform = 'translateX(-100%)';}
