@@ -180,6 +180,10 @@ main p{
     margin-left: 40px;
 }
 
+#arrow{
+    text-align: center;
+}
+
 .floating-logo{
     margin-right: 40px;
 }
@@ -255,3 +259,9 @@ footer{
     font-weight: 600;
     line-height: 1.1;
 }
+
+.iconsfooter{
+    height: 30px; 
+    width: 30px;
+}
+
