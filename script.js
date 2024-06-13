@@ -3,6 +3,7 @@
 const h1 = document.querySelector('h1')
 const main = document.querySelector('main')
 const newA = main.lastElementChild
+const firstimage = document.getElementById('first-element')
 
 h1.addEventListener('mouseout', (e) => {
     console.log('Logo Normal')
@@ -41,12 +42,12 @@ newA.addEventListener('mouseover', (e) => {
 
 });
 
-const lista = ['NO EXITEN CÓDIGOS A LA HORA DE VESTIRSE. BE YOUR OWN PIECE OF STREET ART.','3 Y 6 CUOTAS SIN INTERÉS','ENVÍOS GRATIS EN COMPRAS SUPERIORES A $250.000','ENVÍO EN EL DÍA COMPRANDO ANTES DE LAS 12HS - DÍAS HÁBILES']
+const listapromos = ['NO EXITEN CÓDIGOS A LA HORA DE VESTIRSE. BE YOUR OWN PIECE OF STREET ART.','3 Y 6 CUOTAS SIN INTERÉS','ENVÍOS GRATIS EN COMPRAS SUPERIORES A $250.000','ENVÍO EN EL DÍA COMPRANDO ANTES DE LAS 12HS - DÍAS HÁBILES']
 let promo = 1
 
 
 function funcion (){
-document.getElementById('discountTop').innerHTML = `${lista[promo]}`;
+document.getElementById('discountTop').innerHTML = `${listapromos[promo]}`;
 promo+=1;
 if (promo > 3){
     promo = 0
@@ -67,3 +68,5 @@ document.getElementById('closeBtn').addEventListener('click', function() {
 });
 
 const close1 = () =>{document.getElementById('sideMenu').style.transform = 'translateX(-100%)';}
+
+
